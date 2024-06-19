@@ -108,7 +108,7 @@ body{
     font-size: 24px;
 }
 
-label{
+.label{
     font-size: 20px;
 }
 
@@ -116,4 +116,38 @@ label{
     width: 20px;
     height: 20px;
     cursor: pointer;
+}
+
+.barra{
+    background-color: var(--fundo-senha);
+    height: 30px;
+    width: 100%;
+}
+.força{
+    height:30px;
+    position: relative;
+    bottom: 30px;
+}
+.fraca{
+    width: 25%;
+    background-color: #E71332;
+}
+
+.media{
+    background-color: #FAF408;
+    width: 50%;
+}
+
+.forte{
+    background-color: #00FF85;
+}
+
+.parametro-senha-texots{
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (min-width: 768px) {
+    .parametro-coluna__senha{
+        flex-direction: row;
+    }
 }
